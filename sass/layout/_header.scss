@@ -1,0 +1,112 @@
+.header {
+  background-color: var(--background-color);
+  border-bottom: 1px solid #ececec;
+}
+.header-link-logo-start {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.header-link-logo-end {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--main-text-color);
+}
+.main-header {
+  display: flex;
+  align-items: center;
+}
+.menu-page {
+  display: flex;
+  margin-left: 93px;
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.current {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 4px;
+    bottom: 0%;
+    background: var(--accent-color);
+    border-radius: 2px;
+  }
+  & {
+    color: var(--accent-color);
+  }
+}
+
+.menu-page .menu-item + .menu-item {
+  margin-left: 50px;
+}
+
+.menu-contacts {
+  display: flex;
+  margin-left: auto;
+}
+.menu-contacts .menu-item + .menu-item {
+  margin-left: 50px;
+}
+.icon-letter {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--mail-tel-color);
+}
+.mail-link:hover,
+.mail-link:focus {
+  color: var(--accent-color);
+}
+.icon-letter {
+  fill: currentColor;
+}
+.icon-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--mail-tel-color);
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+.icon-phone {
+  fill: currentColor;
+}
+.mail-link,
+.tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--mail-tel-color);
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
