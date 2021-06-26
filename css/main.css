@@ -158,7 +158,7 @@ img {
   align-items: center;
 }
 
-.menu-page {
+.menu__page {
   display: flex;
   margin-left: 93px;
 }
@@ -199,16 +199,16 @@ img {
   color: var(--accent-color);
 }
 
-.menu-page .menu-item + .menu-item {
+.menu__page .menu__item + .menu__item {
   margin-left: 50px;
 }
 
-.menu-contacts {
+.contacts__menu {
   display: flex;
   margin-left: auto;
 }
 
-.menu-contacts .menu-item + .menu-item {
+.contacts__menu .contacts__item + .contacts__item {
   margin-left: 50px;
 }
 
@@ -255,7 +255,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero {
+.hero__hero-section {
   background-color: #c4c4c4;
   text-align: center;
   padding-top: 200px;
@@ -278,7 +278,7 @@ img {
   margin-bottom: 30px;
 }
 
-.modal-btn {
+.hero__modal-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -492,7 +492,7 @@ img {
   padding: 60px 0;
 }
 
-.footer-link {
+.logo__footer-link {
   display: block;
   margin-bottom: 20px;
 }
@@ -607,18 +607,18 @@ img {
   text-decoration: none;
 }
 
-.social {
+.social-item {
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 30px;
 }
 
-.social-list {
+.social__list {
   display: flex;
   justify-content: space-between;
 }
 
-.social-list-link {
+.social__list-link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -630,18 +630,18 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover, .social-list-link:focus {
+.social__list-link:hover, .social__list-link:focus {
   background-color: var(--accent-color);
 }
 
-.social-icon {
+.social__icon {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
 }
 
-.social-list-link:hover .social-icon,
-.social-list-link:focus .social-icon {
+.social__list-link:hover .social__icon,
+.social__list-link:focus .social__icon {
   fill: #ffffff;
 }
 
@@ -659,11 +659,11 @@ img {
   margin-bottom: 20px;
 }
 
-.social-list .social-list-item-footer + .social-list-item-footer {
+.social__list .social__list-item-footer + .social__list-item-footer {
   margin-left: 10px;
 }
 
-.social-list-link-footer {
+.social__list-link-footer {
   display: flex;
   width: 44px;
   height: 44px;
@@ -675,11 +675,11 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link-footer:hover, .social-list-link-footer:focus {
+.social__list-link-footer:hover, .social__list-link-footer:focus {
   background-color: var(--accent-color);
 }
 
-.social-icon-footer {
+.social__icon-footer {
   width: 20px;
   height: 20px;
   fill: #ffffff;

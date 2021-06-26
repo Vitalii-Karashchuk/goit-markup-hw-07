@@ -1,13 +1,13 @@
-.social {
+.social-item {
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 30px;
 }
-.social-list {
+.social__list {
   display: flex;
   justify-content: space-between;
 }
-.social-list-link {
+.social__list-link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -25,13 +25,13 @@
   }
 }
 
-.social-icon {
+.social__icon {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
 
-  .social-list-link:hover &,
-  .social-list-link:focus & {
+  .social__list-link:hover &,
+  .social__list-link:focus & {
     fill: #ffffff;
   }
 }

@@ -10,10 +10,10 @@
   color: #ffffff;
   margin-bottom: 20px;
 }
-.social-list .social-list-item-footer + .social-list-item-footer {
+.social__list .social__list-item-footer + .social__list-item-footer {
   margin-left: 10px;
 }
-.social-list-link-footer {
+.social__list-link-footer {
   display: flex;
   width: 44px;
   height: 44px;
@@ -31,7 +31,7 @@
   }
 }
 
-.social-icon-footer {
+.social__icon-footer {
   width: 20px;
   height: 20px;
   fill: #ffffff;
