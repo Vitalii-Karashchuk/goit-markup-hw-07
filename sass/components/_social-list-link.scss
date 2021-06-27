@@ -1,4 +1,4 @@
-.social-item {
+.our-team__social-item-description {
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 30px;
@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
 }
-.social__list-link {
+.social__list_link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -30,8 +30,8 @@
   height: 20px;
   fill: #afb1b8;
 
-  .social__list-link:hover &,
-  .social__list-link:focus & {
+  .social__list_link:hover &,
+  .social__list_link:focus & {
     fill: #ffffff;
   }
 }

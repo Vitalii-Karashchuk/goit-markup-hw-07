@@ -86,7 +86,7 @@ img {
   text-decoration: none;
 }
 
-.container {
+.container__base {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -153,17 +153,17 @@ img {
   color: var(--main-text-color);
 }
 
-.main-header {
+.header__container_order-header {
   display: flex;
   align-items: center;
 }
 
-.menu__page {
+.header__menu_page {
   display: flex;
   margin-left: 93px;
 }
 
-.menu-link {
+.header__menu_link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -176,7 +176,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-link:hover, .menu-link:focus {
+.header__menu_link:hover, .header__menu_link:focus {
   color: var(--accent-color);
 }
 
@@ -199,53 +199,53 @@ img {
   color: var(--accent-color);
 }
 
-.menu__page .menu__item + .menu__item {
+.header__menu_page .header__menu_item + .header__menu_item {
   margin-left: 50px;
 }
 
-.contacts__menu {
+.header__contacts_menu {
   display: flex;
   margin-left: auto;
 }
 
-.contacts__menu .contacts__item + .contacts__item {
+.header__contacts_menu .contacts__item + .contacts__item {
   margin-left: 50px;
 }
 
-.icon-letter {
+.contacts__icon-letter {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: var(--mail-tel-color);
 }
 
-.mail-link:hover,
-.mail-link:focus {
+.contacts__mail-link:hover,
+.contacts__mail-link:focus {
   color: var(--accent-color);
 }
 
-.icon-letter {
+.contacts__icon-letter {
   fill: currentColor;
 }
 
-.icon-phone {
+.contacts__icon-phone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
   fill: var(--mail-tel-color);
 }
 
-.tel-link:hover,
-.tel-link:focus {
+.contacts__tel-link:hover,
+.contacts__tel-link:focus {
   color: var(--accent-color);
 }
 
-.icon-phone {
+.contacts__icon-phone {
   fill: currentColor;
 }
 
-.mail-link,
-.tel-link {
+.contacts__mail-link,
+.contacts__tel-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -255,7 +255,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero__hero-section {
+.hero__section {
   background-color: #c4c4c4;
   text-align: center;
   padding-top: 200px;
@@ -267,7 +267,7 @@ img {
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -390,7 +390,7 @@ img {
   background: var(--background-our-team);
 }
 
-.heading-team {
+.our-team__heading-team {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -399,22 +399,22 @@ img {
   margin-bottom: 50px;
 }
 
-.list-team {
+.our-team__list {
   display: flex;
 }
 
-.list-team .list-team-item + .list-team-item {
+.our-team__list .our-team__list_item + .our-team__list_item {
   margin-left: 30px;
 }
 
-.list-team-item {
+.our-team__list_item {
   text-align: center;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.employee-team {
+.our-team__employee-team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -424,7 +424,7 @@ img {
   margin-bottom: 10px;
 }
 
-.activity-employee {
+.our-team__activity-employee {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -607,7 +607,7 @@ img {
   text-decoration: none;
 }
 
-.social-item {
+.our-team__social-item-description {
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 30px;
@@ -618,7 +618,7 @@ img {
   justify-content: space-between;
 }
 
-.social__list-link {
+.social__list_link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -630,7 +630,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social__list-link:hover, .social__list-link:focus {
+.social__list_link:hover, .social__list_link:focus {
   background-color: var(--accent-color);
 }
 
@@ -640,8 +640,8 @@ img {
   fill: #afb1b8;
 }
 
-.social__list-link:hover .social__icon,
-.social__list-link:focus .social__icon {
+.social__list_link:hover .social__icon,
+.social__list_link:focus .social__icon {
   fill: #ffffff;
 }
 
